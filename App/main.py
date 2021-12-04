@@ -7,7 +7,7 @@ from . import db
 
 app = FastAPI()
 templates = Jinja2Templates("App/templates")
-app.mount("/ui", StaticFiles(directory="ui"), name="ui")
+app.mount("/ui", StaticFiles(directory="UI"), name="UI")
 
 @app.get("/todos")
 def get_todos():
