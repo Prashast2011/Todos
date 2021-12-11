@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Prashast\Desktop\CILRE Coding\python\My python projects\Todos\env"
+VIRTUAL_ENV="C:\Users\Prashast\Desktop\CILRE Coding\python\My python projects\Todos - Copy\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
